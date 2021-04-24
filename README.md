@@ -7,3 +7,5 @@ Jordi Giménez
 Angel Olarte
 
 Banda favorita de Diana: Def Leppard.
+
+Banda favorita de Angel: Superlitio
