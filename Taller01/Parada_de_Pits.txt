@@ -1,0 +1,8 @@
+ NOTA: Son dos mecánicos por llanta.
+
+- El vehículo entra a la línea de pits.
+- Se detiene en el box.
+- Los mecánicos retiran las llantas viejas
+- Los mecánicos colocan las llantas nuevas
+- El vehículo arranca
+- El vehículo sale de la zona de pits
