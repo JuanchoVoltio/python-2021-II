@@ -53,6 +53,8 @@ print ("""
 
                         """)
 
+input ()
+
 
 print (Rueda1.format(Tiempo_Rueda1,"tardaron"))
 print (Rueda2.format(Tiempo_Rueda2,"tardaron"))
