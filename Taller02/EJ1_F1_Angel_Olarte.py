@@ -14,47 +14,23 @@ Rueda2 = " Para la Rueda 2 {1} {0} segundos"
 Rueda3 = " Para la Rueda 3 {1} {0} segundos"
 Rueda4 = " Para la Rueda 4 {1} {0} segundos"
 
-
-Proceso = """El vehiculo entra al bloque y los mecanicos se dividen en cuatro grupos,
-
-           de forma que mietras uno quita una rueda el otro la pone,
-
-        terminando el cambio de ruedas el vehiculo retoma la carrera."""
+Proceso = """El vehiculo entra al bloque y los mecanicos se dividen en cuatro grupos, de forma que mietras uno quita una rueda el otro la pone,
+terminando el cambio de ruedas el vehiculo retoma la carrera.\n"""
 
 Tiempo_cambio_ruedas = Tiempo_general
 
-print ("""En una parada de pits existe un vehiculo, bloque respectivo y 8 mecanicos
+print ("En una parada de pits existe un vehiculo, bloque respectivo y 8 mecanicos si quiere saber como opera presione enter")
 
-                              si quiere saber como opera presione enter""")
-input ()
+input(),print (Proceso)
 
-print ("""
 
-""",Proceso)
-
-print ("""
-
-""")
-
-print ("""    Si desea saber el timpo gastado por los mecanicos en cambiar las ruedas
-
-presione enter nuevamente.  NOTA: tenga en cuenta que el tiempo puede variar,
-
-                  dependiendo de la agilidad de los mecanicos """)
+print ("""Si desea saber el timpo gastado por los mecanicos en cambiar las ruedas presione enter nuevamente.\nNOTA: tenga en cuenta que el tiempo puede variar, dependiendo de la agilidad de los mecanicos """)
 
 input ()
-
-print ("""
-                        El tiempo gastado fue de:""",Tiempo_cambio_ruedas,"segundos")
-
-print ("""
-
-                              Para mas detalle presione enter
-
-                        """)
+print ("El tiempo gastado fue de:",Tiempo_cambio_ruedas,"segundos")
+print ("Para mas detalle presione enter ")
 
 input ()
-
 
 print (Rueda1.format(Tiempo_Rueda1,"tardaron"))
 print (Rueda2.format(Tiempo_Rueda2,"tardaron"))
